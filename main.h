@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef _ALX_
+#define _ALX_
 
 #include <stdio.h>
 #include <unistd.h>
