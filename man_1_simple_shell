@@ -72,7 +72,7 @@ The following builtin commands are supported:
 
 .B setenv [Variable] [Value]
 
-- Creates a new environment variab;e or modifies an existing one.
+- Creates a new environment variable or modifies an existing one.
 
 .B unsetenv [Variable]
 
