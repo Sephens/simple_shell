@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
  * strcat_cd - function that concatenates the message for cd error
  *
  * @datash: data relevant (directory)
