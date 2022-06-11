@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
  * aux_help_env - Help information for the builtin env
  * Return: no return
  */
