@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
  * _memcpy - copies information between void pointers.
  * @newptr: destination pointer.
  * @ptr: source pointer.
