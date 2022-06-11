@@ -2,6 +2,7 @@
 
 /**
  *Author: Steven Odhiambo & Anne Wangui
+ *
  * free_data - frees data structure
  *
  * @datast: data structure
