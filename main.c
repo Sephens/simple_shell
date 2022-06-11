@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
  * free_data - frees data structure
  *
- * @datash: data structure
+ * @datast: data structure
  * Return: no return
  */
-void free_data(data_shell *datash)
+void free_data(data_shell *datast)
 {
 	unsigned int i;
 
-	for (i = 0; datash->_environ[i]; i++)
+	for (i = 0; datast->_environ[i]; i++)
 	{
-		free(datash->_environ[i]);
+		free(datast->_environ[i]);
 	}
 
-	free(datash->_environ);
-	free(datash->pid);
+	free(datast->_environ);
+	free(datast->pid);
 }
 
 /**
@@ -26,7 +27,7 @@ void free_data(data_shell *datash)
  * @av: argument vector
  * Return: no return
  */
-void set_data(data_shell *datash, char **av)
+void set_data(data_shell *datast, char **av)
 {
 	unsigned int i;
 
@@ -69,5 +70,5 @@ int main(int ac, char **av)
 	free_data(&datast);
 	if (datast.status < 0)
 		return (255);
-	return (datash.status);
+	return (datast.status);
 }
