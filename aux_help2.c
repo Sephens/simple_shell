@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
  * aux_help - Help information for the builtin help.
  * Return: no return
  */
