@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
+ *
  * get_len - Get the lenght of a number.
  * @n: type int number.
  * Return: Lenght of a number.
