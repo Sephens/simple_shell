@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
+ *
  * rev_string - reverses a string.
  * @s: input string.
  * Return: no return.
