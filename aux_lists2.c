@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ *Author: Steven Odhiambo & Anne Wangui
+ *
  * add_rvar_node - adds a variable at the end
  * of a r_var list.
  * @head: head of the linked list.
