@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * free_data - frees data structure
+ * free_data - free data structure
  *
  * @datash: data structure
  * Return: no return
@@ -20,10 +20,10 @@ void free_data(data_shell *datash)
 }
 
 /**
- * set_data - Initialize data structure
+ * set_data - Initialize the data structure
  *
- * @datash: data structure
- * @av: argument vector
+ * @datash: the data structure
+ * @av: the argument vector
  * Return: no return
  */
 void set_data(data_shell *datash, char **av)
