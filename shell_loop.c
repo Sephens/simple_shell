@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * without_comment - deletes comments from the input
+ * without_comment - delete comments from the input
  *
- * @in: input string
+ * @in: the input string
  * Return: input without comments
  */
 char *without_comment(char *in)
