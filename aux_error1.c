@@ -1,7 +1,6 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
  * strcat_cd - function that concatenates the message for cd error
  *
  * @datash: data relevant (directory)
@@ -13,6 +12,7 @@
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
 	char *illegal_flag;
+
 	_strcpy(error, datash->av[0]);
 	_strcat(error, ": ");
 	_strcat(error, ver_str);
@@ -37,6 +37,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 	_strcat(error, "\0");
 	return (error);
 }
+
 /**
  * error_get_cd - error message for cd command in get_cd
  * @datash: data relevant (directory)
@@ -72,6 +73,7 @@ char *error_get_cd(data_shell *datash)
 	error = strcat_cd(datash, msg, error, ver_str);
 
 	free(ver_str);
+
 	return (error);
 }
 
@@ -137,6 +139,6 @@ char *error_exit_shell(data_shell *datash)
 	_strcat(error, datash->args[1]);
 	_strcat(error, "\n\0");
 	free(ver_str);
-	
+
 	return (error);
 }

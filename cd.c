@@ -1,9 +1,6 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
- *
  * cd_dot - changes to the parent directory
  *
  * @datash: data relevant (environ)

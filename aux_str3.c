@@ -1,13 +1,9 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
- *
  * rev_string - reverses a string.
  * @s: input string.
  * Return: no return.
- *
  */
 void rev_string(char *s)
 {

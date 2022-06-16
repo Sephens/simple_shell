@@ -1,9 +1,6 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
- *
  * _strcat - concatenate two strings
  * @dest: char pointer the dest of the copied str
  * @src: const char pointer the source of str

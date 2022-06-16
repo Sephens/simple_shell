@@ -1,8 +1,6 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
  * _memcpy - copies information between void pointers.
  * @newptr: destination pointer.
  * @ptr: source pointer.

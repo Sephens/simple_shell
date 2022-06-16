@@ -1,8 +1,6 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *Author: Steven Odhiambo & Anne Wangui
- *
  * error_env - error message for env in get_env.
  * @datash: data relevant (counter, arguments)
  * Return: error message.
