@@ -2,8 +2,8 @@
 
 /**
  * get_error - calls the error according the builtin, syntax or permission
- * @datash: data structure that contains arguments
- * @eval: error value
+ * @datash: the data structure that contains arguments
+ * @eval: the error value
  * Return: error
  */
 int get_error(data_shell *datash, int eval)
