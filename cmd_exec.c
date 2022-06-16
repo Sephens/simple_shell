@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * is_cdir - checks ":" if is in the current directory.
- * @path: type char pointer char.
- * @i: type int pointer of index.
+ * is_cdir - checks ":" if it is in the current directory.
+ * @path: the type char pointer char.
+ * @i: the type int pointer of index.
  * Return: 1 if the path is searchable in the cd, 0 otherwise.
  */
 int is_cdir(char *path, int *i)
@@ -25,8 +25,8 @@ int is_cdir(char *path, int *i)
 /**
  * _which - locates a command
  *
- * @cmd: command name
- * @_environ: environment variable
+ * @cmd: the command name
+ * @_environ: the environment variable
  * Return: location of the command.
  */
 char *_which(char *cmd, char **_environ)
@@ -75,7 +75,7 @@ char *_which(char *cmd, char **_environ)
 /**
  * is_executable - determines if is an executable
  *
- * @datash: data structure
+ * @datash: the data structure
  * Return: 0 if is not an executable, other number if it does
  */
 int is_executable(data_shell *datash)
