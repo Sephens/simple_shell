@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * copy_info - copies info to create
+ * copy_info - this copies info to create
  * a new env or alias
- * @name: name (env or alias)
- * @value: value (env or alias)
+ * @name: the name (env or alias)
+ * @value: the value (env or alias)
  *
  * Return: new env or alias.
  */
