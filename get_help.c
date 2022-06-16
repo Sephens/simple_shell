@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * get_help - function that retrieves help messages according builtin
- * @datash: data structure (args and input)
+ * get_help - the function that retrieves help messages according builtin
+ * @datash: the data structure (args and input)
  * Return: Return 0
 */
 int get_help(data_shell *datash)
