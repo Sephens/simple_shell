@@ -45,7 +45,7 @@ void set_data(data_shell *datast, char **av)
 
 	for (i = 0; environ[i]; i++)
 	{
-		datash->_environ[i] = _strdup(environ[i]);
+		datast->_environ[i] = _strdup(environ[i]);
 	}
 
 	datast->_environ[i] = NULL;
