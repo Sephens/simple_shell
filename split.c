@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * swap_char - swaps | and & for non-printed chars
+ * swap_char - swaps | and & for non printed characters
  *
  * @input: input string
  * @bool: type of swap
@@ -44,7 +44,7 @@ char *swap_char(char *input, int bool)
 }
 
 /**
- * add_nodes - add separators and command lines in the lists
+ * add_nodes - adds separators and command lines in the lists
  *
  * @head_s: head of separator list
  * @head_l: head of command lines list
